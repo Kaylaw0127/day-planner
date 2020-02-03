@@ -1,3 +1,8 @@
+// display time
+var now = moment().format("dddd, MMMM Do YYYY, h:mm:ss a")
+console.log(now)
+$("#currentDay").html(now)
+
 // 9 AM
 // Save input to local storage
 var nineInfo = document.getElementById("description-9")
