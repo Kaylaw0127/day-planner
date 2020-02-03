@@ -1,7 +1,7 @@
 // display time
 var now = moment().format("dddd, MMMM Do YYYY, h:mm:ss a")
 console.log(now)
-$("#currentDay").html(now)
+$("#currentDay").html(now);
 
 // 9 AM
 // Save input to local storage
@@ -14,6 +14,14 @@ $(save9).on("click", function(){
     localStorage.setItem('nine', nineInfo.value)
     alert('Your event for 9 AM has been added!')
 })
+//color depending on time
+// var currentTime = moment()
+// if (currentTime < 9) {
+//     nineInfo.classList.add(`future`)
+//     } else if (currentTime == 9) {
+//     nineInfo.classList.add(`present`)
+//         } else if (currentTime > 9) {
+//     nineInfo.classList.add(`past`)
 
 // 10 AM
 // Save input to local storage
