@@ -32,83 +32,83 @@ $("#currentDay").html(display)
 ///// COLOR DEPENDING ON TIME//////
 // 9 am
 if (now < 9) {
-    nineInfo.style.backgroundColor = "green"
+    nineInfo.classList.add("past")
     } else if (now == 9) {
-    nineInfo.style.backgroundColor = "red"
+    nineInfo.classList.add("present")
         } else {
-    nineInfo.style.backgroundColor = "gray"
+    nineInfo.classList.add("future")
 }
 
 // 10 am
 if (now < 10) {
-    tenInfo.style.backgroundColor = "green"
+    tenInfo.classList.add("past")
     } else if (now == 10) {
-    tenInfo.style.backgroundColor = "red"
+    tenInfo.classList.add("present")
         } else {
-    tenInfo.style.backgroundColor = "gray"
+    tenInfo.classList.add("future")
 }
 
 // 11 am
 if (now < 11) {
-    elevenInfo.style.backgroundColor = "green"
+    elevenInfo.classList.add("past")
     } else if (now == 11) {
-    elevenInfo.style.backgroundColor = "red"
+    elevenInfo.classList.add("present")
         } else {
-    elevenInfo.style.backgroundColor = "gray"
+    elevenInfo.classList.add("future")
 }
 
 // 12 pm
 if (now < 12) {
-    twelveInfo.style.backgroundColor = "green"
+    twelveInfo.classList.add("past")
     } else if (now == 12) {
-    twelveInfo.style.backgroundColor = "red"
+    twelveInfo.classList.add("present")
         } else {
-    twelveInfo.style.backgroundColor = "gray"
+    twelveInfo.classList.add("future")
 }
 
 // 1 pm
 if (now < 13) {
-    oneInfo.style.backgroundColor = "green"
+    oneInfo.classList.add("past")
     } else if (now == 13) {
-    oneInfo.style.backgroundColor = "red"
+    oneInfo.classList.add("present")
         } else {
-    oneInfo.style.backgroundColor = "gray"
+    oneInfo.classList.add("future")
 }
 
 // 2 pm
 if (now < 14) {
-    twoInfo.style.backgroundColor = "green"
+    twoInfo.classList.add("past")
     } else if (now == 14) {
-    twoInfo.style.backgroundColor = "red"
+    twoInfo.classList.add("present")
         } else {
-    twoInfo.style.backgroundColor = "gray"
+    twoInfo.classList.add("future")
 }
 
 // 3 pm
 if (now < 15) {
-    threeInfo.style.backgroundColor = "green"
+    threeInfo.classList.add("past")
     } else if (now == 15) {
-    threeInfo.style.backgroundColor = "red"
+    threeInfo.classList.add("present")
         } else {
-    threeInfo.style.backgroundColor = "gray"
+    threeInfo.classList.add("future")
 }
 
 // 4 pm
 if (now < 16) {
-    fourInfo.style.backgroundColor = "green"
+    fourInfo.classList.add("past")
     } else if (now == 16) {
-    fourInfo.style.backgroundColor = "red"
+    fourInfo.classList.add("present")
         } else {
-    fourInfo.style.backgroundColor = "gray"
+    fourInfo.classList.add("future")
 }
 
 // 5 pm
 if (now < 17) {
-    fiveInfo.style.backgroundColor = "green"
+    fiveInfo.classList.add("past")
     } else if (now == 17) {
-    fiveInfo.style.backgroundColor = "red"
+    fiveInfo.classList.add("present")
         } else {
-    fiveInfo.style.backgroundColor = "gray"
+    fiveInfo.classList.add("future")
 }
 
     
