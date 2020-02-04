@@ -1,7 +1,9 @@
 # day-planner
 
 # Description
-a calendar application that allows you to save events for each hour of the day. The calendar will display the current date and time. When the time is passed a certain date that slot will turn gray. If the time has not reached a certain time that slot will remain green. And it will display red for current hour.
+a calendar application that allows you to save your events for each hour of the day.
+
+The calendar will display the current date and time. If the time slots have not happened yet and are after the current hour, those slots will show green. If the hourly time slots already happened for the day they will display gray. Lastly, the time slot will be red for the current hour.
 
 # Resources
 Moment.js

@@ -31,16 +31,16 @@ $("#currentDay").html(display)
 
 ///// COLOR DEPENDING ON TIME//////
 // 9 am
-if (now < 9) {
+if (now > 9) {
     nineInfo.classList.add("past")
     } else if (now == 9) {
     nineInfo.classList.add("present")
         } else {
-    nineInfo.classList.add("future")
+    nineInfo.classList.add("futute")
 }
 
 // 10 am
-if (now < 10) {
+if (now > 10) {
     tenInfo.classList.add("past")
     } else if (now == 10) {
     tenInfo.classList.add("present")
@@ -49,7 +49,7 @@ if (now < 10) {
 }
 
 // 11 am
-if (now < 11) {
+if (now > 11) {
     elevenInfo.classList.add("past")
     } else if (now == 11) {
     elevenInfo.classList.add("present")
@@ -58,7 +58,7 @@ if (now < 11) {
 }
 
 // 12 pm
-if (now < 12) {
+if (now > 12) {
     twelveInfo.classList.add("past")
     } else if (now == 12) {
     twelveInfo.classList.add("present")
@@ -67,7 +67,7 @@ if (now < 12) {
 }
 
 // 1 pm
-if (now < 13) {
+if (now > 13) {
     oneInfo.classList.add("past")
     } else if (now == 13) {
     oneInfo.classList.add("present")
@@ -76,7 +76,7 @@ if (now < 13) {
 }
 
 // 2 pm
-if (now < 14) {
+if (now > 14) {
     twoInfo.classList.add("past")
     } else if (now == 14) {
     twoInfo.classList.add("present")
@@ -85,7 +85,7 @@ if (now < 14) {
 }
 
 // 3 pm
-if (now < 15) {
+if (now > 15) {
     threeInfo.classList.add("past")
     } else if (now == 15) {
     threeInfo.classList.add("present")
@@ -94,7 +94,7 @@ if (now < 15) {
 }
 
 // 4 pm
-if (now < 16) {
+if (now > 16) {
     fourInfo.classList.add("past")
     } else if (now == 16) {
     fourInfo.classList.add("present")
@@ -103,7 +103,7 @@ if (now < 16) {
 }
 
 // 5 pm
-if (now < 17) {
+if (now > 17) {
     fiveInfo.classList.add("past")
     } else if (now == 17) {
     fiveInfo.classList.add("present")
