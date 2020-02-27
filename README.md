@@ -1,4 +1,5 @@
 # day-planner
+https://kaylaw0127.github.io/day-planner/
 
 # Description
 a calendar application that allows you to save your events for each hour of the day.
